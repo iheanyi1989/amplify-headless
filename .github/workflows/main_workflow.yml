@@ -1,7 +1,7 @@
 name: Master workflow
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
 jobs:
   build:
     strategy:
